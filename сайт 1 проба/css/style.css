@@ -1,0 +1,282 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #f8f8f3;
+	padding-top: 30px;
+}
+
+.container {
+	min-width: 1170px;
+	max-width: 1170px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.top-line {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+
+span.logo {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 32px;
+	text-align: center;
+	line-height: 60px;
+	display: block;
+	width: 180px;
+	height: 60px;
+	background-color: #bf3a16;
+}
+
+.top-line {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.top-line-left,
+.top-line-right {
+	display: inline-block;
+
+}
+
+.top-line-right {
+	margin-left: 732px;
+	font-size: 18px;
+	color: #000;
+
+}
+.top-line-right span {
+	font-size: 18px;
+	color: #792913;
+}
+
+, ::after, *::before { 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box; 
+	margin: 0; 
+	padding: 0; 
+} 
+#mainmenu { 
+	background: #ebe9d8; 
+	position: relative; 
+	overflow:hidden; 
+	height:60px; 
+	margin:5px 0 
+} 
+#mainmenu ul { 
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+	position: relative; 
+	left:50%; 
+	float:left; 
+	font-family: 'Alice', serif; 
+	font-size: 16px;
+	height:40px 
+} 
+#mainmenu ul li { 
+	position:relative; 
+	left:-50%; 
+	float:left; 
+	margin:0 85px; 
+	height:40px 
+} 
+#mainmenu ul li a { 
+	color: #000; 
+	display:block; 
+	text-decoration:none; 
+	padding:0 10px; 
+	line-height: 25px; 
+} 
+#mainmenu ul li a:hover { 
+	background-color:#666; 
+}
+.baner-descr{
+	float:left;
+	clear: both;
+	margin: 50px;
+	text-transform:lowercase;
+}
+.baner-descr h1 {
+	padding-left:30px;
+	font-size:40px;
+	margin-bottom: 0;
+	margin-top:0;
+}
+.small-text{
+	font-family: 'Gochi Hand', cursive;
+	font-size:30px;
+	color:#9e6756;
+	margin:0px 0px 0px 33px;
+}
+.small-text1{
+	font-family: 'Gochi Hand', cursive;
+	font-size:30px;
+	color:#000;
+	margin:0px 0px 0px 96px;
+
+}
+.baner-descr h1 span{
+	font-family: 'Rock Salt', cursive;
+	color:#bf3a16;	
+	padding-left:40px;
+	margin:0px 0px 0px 30px;
+}
+.big-text{
+	font-family: 'Rock Salt', cursive;
+	color:black;
+}
+.baner-img {
+	display:block;
+	background-image:url('../img/baner.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height:308px;
+	width:470px;
+	margin:0px 0px 0px 700px;
+}
+
+.item {
+	display:block;
+	border-top:5px solid #e2e0cf;
+	height:370px;
+	width:1170px;
+	margin:0 auto;
+	background-color:#ebe9d8;
+
+}
+.item1  {
+	float: left;
+	width:31%;
+	padding-right: 2%;
+}	
+.item1 hgroup h2{
+	margin-bottom: 0;
+	font-size:25px;
+}
+.item1 hgroup h3{
+	margin: 0 auto;
+	color:#823f2d;
+}
+.item2  {
+	float: left;
+	width:31%;
+	padding-right: 2%;
+}
+.item2 hgroup h2{
+	margin-bottom: 0;
+	font-size:25px;
+	
+}
+.item2 hgroup h3{
+	margin: 0 auto;
+	color:#823f2d;
+	
+}
+.item3 {
+	float: left;
+	width:31%;
+	padding-right: 2%;
+}
+.item3 hgroup h2{
+	margin-bottom: 0;
+	font-size:25px;
+}
+.item3 hgroup h3{
+	margin: 0 auto;
+	color:#823f2d;
+
+}
+.post {
+	padding:10px;
+	color:#fff;
+	background-color:#bf3a16;
+	font-family: 'Alice', serif;
+	font-size:20px;
+	
+}
+.post p {
+	font-size:10px;
+}
+
+.post a{
+	text-decoration: underline;
+	color:#fff;
+}
+a{
+	color:red;
+}
+
+figure figcaption {
+	display: inline-block;
+	vertical-align:middle;
+}
+
+.text3 ul li {
+	text-align: left;
+}
+li:before {          /* Сделать только для этого блока*/
+	content:"\21D2";
+}
+li {
+	list-style: none; 
+}
+.item456 {
+	display:block;
+	height:250px;
+	width:1170px;
+	margin:0 auto;
+	background-color:#dad5bb;	
+}
+.item4  {
+	float: left;
+	width:31%;
+	padding-right: 2%;
+
+}
+.s1 a{
+	color:#5b594c;
+	
+}	
+.item5  {
+	float: left;
+	width:31%;
+	padding-right: 2%;
+}
+.s2 a{
+	color:#5b594c;
+}
+.item6 {
+	float: left;
+	width:31%;
+	padding-right: 2%;
+} 
+.s3 a{
+	color:#5b594c;
+}   
+.footer {
+	position: static; 
+	left: 0; bottom: 0; 
+	background: #fff; 
+	width: 100%; 
+
+}
+.footer p{
+	color: #dad5bb; 
+	padding: 10px;
+	float: left;
+}
+.footer p1{
+	color: red; 
+	padding: 10px 0 10px 0;
+	float: left;
+	margin-top: 16px;
+}	
